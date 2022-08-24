@@ -193,51 +193,6 @@ nav {
   animation: typing3 1.2s steps(20) 6s forwards, blinkCursor3 600ms 6s infinite forwards;
 }
 
-@media screen and (max-width: 800px ) {
-  nav {
-    flex-direction: column;
-    height: auto;
-    width: 100%;
-  }
-
-  .link-nav {
-    border-width: 1px 0 0 0;
-    width: 100%;
-    text-align: center;
-    padding: 10px;
-  }
-
-  .link-nav:first-child {
-    border-width: 1px 0 0 0;
-  }
-
-  .link-nav:last-child {
-    border-width: 1px 0 1px 0;
-  }
-
-  .title {
-    font-size: 18px;
-  }
-
-  .subtitle {
-    font-size: 18px;
-  }
-
-  .knowMe h2 {
-    font-size: 15px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .title {
-    font-size: 15px;
-  }
-
-  .subtitle {
-    font-size: 15px;
-  }
-}
-
 @media screen and (max-width: 500px ) {
   body {
     overflow: auto;
