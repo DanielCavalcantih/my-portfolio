@@ -193,7 +193,7 @@ nav {
   animation: typing3 1.2s steps(20) 6s forwards, blinkCursor3 600ms 6s infinite forwards;
 }
 
-@media screen and (max-width: 500px ) {
+@media screen and (max-width: 800px ) {
   body {
     overflow: auto;
   }

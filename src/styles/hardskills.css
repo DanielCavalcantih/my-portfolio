@@ -38,7 +38,7 @@
   border-radius: 20px;
 }
 
-@media screen and (max-width: 500px ) {
+@media screen and (max-width: 800px ) {
   .container-h2-list {
     width: 100%;
   }
