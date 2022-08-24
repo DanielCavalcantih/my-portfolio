@@ -239,6 +239,14 @@ nav {
 }
 
 @media screen and (max-width: 500px ) {
+  body {
+    overflow: auto;
+  }
+
+  .link-img {
+    display: none;
+  }
+
   .container-title {
     margin-top: 80px;
   }

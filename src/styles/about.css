@@ -36,6 +36,14 @@
 
   .about p {
     width: 90%;
-    font-size: 32px;
+    font-size: 25px;
+  }
+
+  .seta {
+    display: none;
+  }
+
+  .seta-cima {
+    display: none;
   }
 }
