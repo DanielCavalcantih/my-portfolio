@@ -31,3 +31,21 @@
   color: #2FC18C;
   font-weight: bold;
 }
+
+@media screen and (max-width: 500px ) {
+  .how-arrive {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .how-arrive h2 {
+    font-size: 25px;
+  }
+
+  .how-arrive p {
+    width: 90%;
+    font-size: 20px;
+  }
+}

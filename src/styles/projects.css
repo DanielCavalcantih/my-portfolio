@@ -80,4 +80,29 @@
   margin-left: 40px;
 }
 
+@media screen and (max-width: 500px ) {
+  .projects h2 {
+    font-size: 30px;
+  }
+
+  .projects ul {
+    width: 350px;
+    overflow: auto;
+  }
+
+  .projects ul li {
+    box-shadow: none;
+  }
+
+  .more-projects {
+    font-size: 25px;
+    flex-direction: column;
+  }
+
+  .more-projects img {
+    margin: 0;
+    margin-top: 30px;
+  }
+}
+
 

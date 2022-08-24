@@ -37,3 +37,27 @@
 .hard-list li:nth-child(3) img {
   border-radius: 20px;
 }
+
+@media screen and (max-width: 500px ) {
+  .container-h2-list {
+    width: 100%;
+  }
+
+  .container-h2-list h2 {
+    font-size: 30px;
+  }
+
+  .hard-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+  .hard-list li {
+    margin-top: 30px;
+  }
+
+  .hard-list li img {
+    width: 100px;
+  }
+}

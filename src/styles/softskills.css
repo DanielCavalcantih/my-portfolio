@@ -55,3 +55,45 @@
   margin-top: 10px;
   font-family: 'Roboto Mono', monospace;
 }
+
+@media screen and (max-width: 500px) {
+  .container-img-title {
+    width: 100%;
+  }
+
+  .container-img-title img {
+    display: none;
+    margin: 0;
+  }
+
+  .container-list-title {
+    flex-direction: column;
+  }
+
+  .container-list-title h2 {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+
+  .soft-list {
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  .soft-list li {
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .soft-list li h3 {
+    font-size: 20px;
+  }
+
+  .soft-list li p {
+    font-size: 18px;
+  }
+}

@@ -28,3 +28,14 @@
 .seta-cima {
   margin-top: 30px;
 }
+
+@media screen and (max-width: 500px ) {
+  .about {
+    background-position: center;
+  }
+
+  .about p {
+    width: 90%;
+    font-size: 32px;
+  }
+}
