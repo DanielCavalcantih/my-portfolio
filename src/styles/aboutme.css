@@ -89,6 +89,7 @@
 
   .text h2 {
     font-size: 30px;
+    margin-bottom: 10px;
   }
 
   .text p {
@@ -105,6 +106,7 @@
   }
 
   .linkedin-cv {
+    margin-top: 10px;
     flex-direction: column;
     align-items: center;
   }

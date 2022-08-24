@@ -204,8 +204,8 @@ nav {
     width: 100%;
   }
 
-  .link-img img {
-    visibility: hidden;
+  .link-img {
+    display: none;
   }
 
   .link-nav {

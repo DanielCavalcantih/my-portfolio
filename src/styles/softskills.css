@@ -71,8 +71,8 @@
   }
 
   .container-list-title h2 {
-    font-size: 30px;
-    margin-top: 30px;
+    font-size: 25px;
+    margin-top: 10px;
   }
 
   .soft-list {
@@ -86,14 +86,14 @@
     width: 90%;
     align-items: center;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 10px;
   }
 
   .soft-list li h3 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .soft-list li p {
-    font-size: 18px;
+    font-size: 13px;
   }
 }
