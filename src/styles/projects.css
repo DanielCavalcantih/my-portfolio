@@ -86,7 +86,7 @@
   }
 
   .projects ul {
-    width: 350px;
+    width: 260px;
     overflow: auto;
   }
 
@@ -102,6 +102,23 @@
   .more-projects img {
     margin: 0;
     margin-top: 30px;
+  }
+
+  .projects ul li {
+    width: 180px;
+    height: 140px;
+  }
+
+  .projects ul li h3 {
+    font-size: 15px;
+  }
+
+  .in-progress {
+    font-size: 15px;
+  }
+
+  .projects ul li img {
+    width: 150px;
   }
 }
 
