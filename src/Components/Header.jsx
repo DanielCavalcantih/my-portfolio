@@ -14,7 +14,7 @@ function Header() {
       </nav>
       <div className="container-title">
         <h1 className="title typing-animation"><span>const</span> <span>nome =</span> 'Daniel Cavalcanti';</h1>
-        <p className="subtitle blank"><span>const</span> <span>cargo =</span> 'Dev Front-End';</p>
+        <p className="subtitle blank"><span>const</span> <span>cargo =</span> 'Dev Full-Stack';</p>
       </div>
       <div className="knowMe">
         <h2 className="blank2">Vem me conhecer !</h2>
