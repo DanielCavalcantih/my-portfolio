@@ -34,7 +34,7 @@ function AboutMe() {
               onMouseOut={ () => setCv('Meu currículo') }
               onMouseEnter={ () => setCv('Baixar CV') }
               className="cv"
-              href="../Assets/CV Daniel Cavalcanti.pdf"
+              href="../Assets/CURRICULO-DANIEL.pdf"
               download
             >
               { cv }
