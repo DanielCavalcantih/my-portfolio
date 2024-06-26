@@ -37,6 +37,10 @@
 }
 
 @media screen and (max-width: 800px ) {
+  .about-dev {
+    padding: 50px 0;
+  }
+
   .how-arrive {
     width: 100%;
     display: flex;
