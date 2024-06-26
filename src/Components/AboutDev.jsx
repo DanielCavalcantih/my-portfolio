@@ -1,31 +1,21 @@
-import '../styles/aboutdev.css';
-import seta from '../images/seta.png';
-import setaCima from '../images/seta-cima.png';
+import "../styles/aboutdev.css";
 
 function AboutDev() {
   return (
-    <section id="aboutdev" className="about-dev">
-      <div className="seta-cima">
-        <a className="link-img" href="#aboutme">
-          <img width="80" src={ setaCima } alt="" />
-        </a>
-      </div>
+    <section id="about-dev" className="about-dev">
       <div className="how-arrive">
-          <h2
-            data-aos="fade-right"
-            ata-aos-delay="300"
-            data-aos-duration="800"
-          >{ '<Como cheguei até aqui/>' }</h2>
-          <p
-            data-aos="fade-right"
-            data-aos-delay="700"
-            data-aos-duration="800"
-          >Sempre fui fanático por tecnologia. Meu pai era dono de uma Lan House, e lá foi onde tive meu primeiro contato com um computador. No início, via o computador como um meio de diversão, jogava diversos jogos, assistia muitos vídeos e filmes, mas nunca observei com outros olhos. Até que um dia tive a curiosidade de saber como aquilo tudo que eu estava vendo na tela funcionava, oque tinha por trás daquilo tudo, e foi assim que descobri o desenvolvimento web. Comecei a fazer alguns cursos em algumas plataformas online até descobrir a <a href="https://www.betrybe.com/" className="trybe">Trybe</a> e seu amplo e vasto mundo de oportunidades.</p>
-      </div>
-      <div className="seta">
-        <a className="link-img" href="#hard-skills">
-          <img width="80" src={ seta } alt="" />
-        </a>
+        <h2 data-aos="fade-right" ata-aos-delay="300" data-aos-duration="800">
+          {"<How I got here/>"}
+        </h2>
+        <p data-aos="fade-right" data-aos-delay="700" data-aos-duration="800">
+          I have always been a technology fanatic, initially I used the computer
+          for games and school work, but after discovering programming through
+          videos on the internet, I saw that it was what I wanted for my life. I
+          started taking some free courses, until I discovered Trybe, where I
+          became a professional and acquired knowledge to finally have my first
+          job opportunity. I currently work at <a href="https://datasysconsultoria.com.br/">Datasys Consultoria</a>, leading the
+          Front-End development team.
+        </p>
       </div>
     </section>
   );

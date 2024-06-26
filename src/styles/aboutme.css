@@ -1,44 +1,45 @@
 .aboutme{
-  background-color: darkorange;
+  background-color: #033C51;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  height: 100vh;
+  padding: 100px 0;
 }
 
 .container-text-img {
   display: flex;
   justify-content: center;
+  gap: 200px;
   align-items: center;
 }
 
 .text{
   display: flex;
   flex-direction: column;
+  align-items: start;
   color: white;
   width: 30%;
-  margin-right: 100px;
   font-weight: bold;
 }
 
 .text h2{
   font-size: 55px;
-  color: yellow;
+  color: #282C34;
   margin-bottom: 35px;
   font-family: 'Roboto Mono', monospace;
-  text-shadow: 2px 2px 6px black;
+  background-color: lightgray;
 }
 
 .text p {
   font-size: 30px;
   font-family: 'Roboto Mono', monospace;
-  text-shadow: 2px 2px 6px black;
 }
 
 .linkedin-cv {
   margin-top: 40px;
   display: flex;
+  gap: 24px;
 }
 
 .cv {
@@ -47,13 +48,12 @@
   justify-content: center;
   width: 270px;
   text-decoration: none;
-  background-color: #033C51;
+  background-color: #023041;
   color: white;
   padding: 10px;
   font-size: 25px;
   font-family: 'Roboto Mono', monospace;
   border-radius: 20px;
-  margin-left: 40px;
   transition: 200ms;
 }
 
@@ -65,14 +65,8 @@
   margin-left: 10px;
 }
 
-.img-city-container{
-  width: 30%;
-  margin-left: 100px;
-}
-
 .img-perfil {
-  border-radius: 100%;
-  box-shadow: 0px 0px 30px black;
+  border-radius: 20px;
 }
 
 @media screen and (max-width: 800px ) {

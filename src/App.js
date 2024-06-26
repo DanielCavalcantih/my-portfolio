@@ -6,19 +6,21 @@ import AboutMe from './Components/AboutMe';
 import AboutDev from './Components/AboutDev';
 import HardSkills from './Components/HardSkills';
 import SoftSkills from './Components/SoftSkills';
-import Projects from './Components/Projects';
+import NavBar from './Components/NavBar';
+// import Projects from './Components/Projects';
 
 function App() {
   AOS.init();
 
   return (
     <>
+      <NavBar />
       <Header />
       <About />
       <AboutMe />
       <AboutDev />
       <HardSkills />
-      <Projects />
+      {/* <Projects /> */}
       <SoftSkills />
     </>
   );

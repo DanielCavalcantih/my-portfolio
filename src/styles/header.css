@@ -71,14 +71,17 @@ header {
 
 nav {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
-  height: 10%;
+  height: 50px;
+  width: 100vw;
+  position: fixed;
+  background-color: rgba(40, 44, 52, 0.8);
 }
 
 .link-nav {
   padding: 5px 20px;
-  color: rgba(255, 255, 255, 0.301);
+  color: rgba(255, 255, 255, 0.6);
   font-size: 18px;
   border: solid 1px rgba(255, 255, 255, 0.076);
   border-width: 0 1px 0 1px;
@@ -92,7 +95,7 @@ nav {
   border-width: 0 1px 0 0;
 }
 
-.link-nav:last-child {
+.link-nav:nth-child(5) {
   border-width: 0 0 0 1px;
 }
 
@@ -191,6 +194,78 @@ nav {
 
 .blank2 {
   animation: typing3 1.2s steps(20) 6s forwards, blinkCursor3 600ms 6s infinite forwards;
+}
+
+.button-contact {
+  position: fixed;
+  right: 0;
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: 'Roboto Mono', monospace;
+  text-shadow: 2px 2px 5px black;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  cursor: pointer;
+  transition: 300ms;
+  padding: 5px 20px;
+}
+
+.contact {
+  position: fixed;
+  right: 0;
+  top: 50px;
+  background-color: rgba(40, 44, 52, 0.8);
+  border-radius: 0 0 0 10px;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 12px;
+}
+
+.number {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: 'Roboto Mono', monospace;
+  text-shadow: 2px 2px 5px black;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.email {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: 'Roboto Mono', monospace;
+  text-shadow: 2px 2px 5px black;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.button-contact:hover {
+  background-color: rgba(255, 255, 255, 0.028);
+}
+
+.copy-button {
+  background: none;
+  border: solid 1px rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
+  border-radius: 8px;
+  padding: 3px 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.insta {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: 'Roboto Mono', monospace;
+  text-shadow: 2px 2px 5px black;
 }
 
 @media screen and (max-width: 800px ) {

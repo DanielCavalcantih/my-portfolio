@@ -1,5 +1,5 @@
 .hard-skills {
-  height: 100vh;
+  padding: 100px 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -16,26 +16,39 @@
 .container-h2-list h2 {
   font-size: 45px;
   font-family: 'Roboto Mono', monospace;
-  text-shadow: 2px 2px 6px black;
-  color: yellow;
+  color: #282C34;
   margin-bottom: 80px;
+  background-color: lightgray;
 }
 
 .hard-list {
   list-style: none;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-areas: 
+    'li li li li'
+    'li li li li'
+  ;
+  grid-column-gap: 100px;
+  grid-row-gap: 16px;
 }
 
 .hard-list li {
   display: flex;
-  justify-content: center;
+  gap: 16px;
   align-items: center;
+  height: 90px;
+  min-width: 300px;
 }
 
 .hard-list li:nth-child(3) img {
   border-radius: 20px;
+}
+
+.hard-name {
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 30px;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 800px ) {
@@ -49,15 +62,23 @@
 
   .hard-list {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
+    grid-template-areas: 
+      'li li'
+      'li li'
+    ;
+    grid-column-gap: 20px;
   }
 
   .hard-list li {
     margin-top: 30px;
+    min-width: 110px;
   }
 
   .hard-list li img {
-    width: 80px;
+    width: 50px;
+  }
+
+  .hard-name {
+    font-size: 20px;
   }
 }
