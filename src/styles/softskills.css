@@ -57,6 +57,10 @@
   font-family: 'Roboto Mono', monospace;
 }
 
+.soft-list-mobile {
+  display: none;
+}
+
 @media screen and (max-width: 800px) {
   .container-img-title {
     width: 100%;

@@ -69,6 +69,10 @@
   border-radius: 20px;
 }
 
+.aboutme-mobile {
+  display: none;
+}
+
 @media screen and (max-width: 800px ) {
   .aboutme {
     display: none;
