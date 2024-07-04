@@ -7,7 +7,7 @@ import HardSkills from './Components/HardSkills';
 import SoftSkills from './Components/SoftSkills';
 import NavBar from './Components/NavBar';
 import Contact from './Components/Contact';
-// import Projects from './Components/Projects';
+import Projects from './Components/Projects';
 
 function App() {
   AOS.init();
@@ -19,7 +19,7 @@ function App() {
       <AboutMe />
       <AboutDev />
       <HardSkills />
-      {/* <Projects /> */}
+      <Projects />
       <SoftSkills />
       <Contact />
     </>

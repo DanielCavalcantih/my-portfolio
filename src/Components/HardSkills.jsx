@@ -11,7 +11,7 @@ import ts from '../images/ts.webp';
 import node from '../images/node.png';
 import tail from '../images/tail.png';
 import mui from '../images/mui.png';
-import git from '../images/git.png';
+import firebase from "../images/firebase.png";
 
 function HardSkills() {
   const skills = [
@@ -26,7 +26,7 @@ function HardSkills() {
     {name: 'Node', img: node},
     {name: 'Tailwind', img: tail},
     {name: 'Material-Ui', img: mui},
-    {name: 'Git', img: git},
+    {name: 'Firebase', img: firebase},
   ]
 
   return (

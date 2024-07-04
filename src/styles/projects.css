@@ -1,126 +1,267 @@
 .projects {
-  height: 100vh;
-  background-color: darkorange;
+  background-color: #033c51;
   display: flex;
+  gap: 100px;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
 
 .projects h2 {
-  font-size: 45px;
-  font-family: 'Roboto Mono', monospace;
-  text-shadow: 2px 2px 6px black;
-  color: yellow;
+  font-size: 38px;
+  font-family: "Roboto Mono", monospace;
+  color: #282c34;
+  background-color: lightgray;
+  display: inline;
 }
 
-.projects ul {
-  list-style: none;
+.list-projects {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 50px;
+  width: 60%;
 }
 
-.projects ul a {
-  text-decoration: none;
+.list-projects li {
+  position: relative;
 }
 
-.projects ul li {
-  border: solid 3px white;
-  border-radius: 20px;
-  width: 260px;
-  background-color: #033C51;
+.list-projects button {
+  height: 200px;
+  width: 300px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  height: 200px;
-  margin: 20px;
-  box-shadow: 0 0 25px black;
+  border: none;
+  background: #282c33;
   transition: 200ms;
-  justify-content: space-between;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
-.projects ul li:hover {
-  border: solid 3px yellow;
-  cursor: pointer;
-}
-
-.projects ul li h3 {
-  font-size: 20px;
-  padding: 10px;
-  border-radius: 0 0 18px 18px;
-  background-color: #023041;
-  font-family: 'Roboto Mono', monospace;
+.list-git {
   width: 100%;
-  text-align: center;
-  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
 }
 
-.img-project {
-  margin-top: 15px;
+.name-project {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: transparent;
+  transition: 200ms;
+}
+
+.name-project:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(2px);
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.list-projects button:hover {
+  cursor: pointer;
+  transform: scale(1.02);
 }
 
 .in-progress {
   margin-top: 50px;
   font-size: 25px;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   color: white;
   font-weight: bold;
 }
 
 .more-projects {
-  font-family: 'Roboto Mono', monospace;
-  font-size: 30px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
   font-weight: bold;
   display: flex;
   align-items: center;
   color: white;
-  text-shadow: 2px 2px 6px black;
 }
 
 .more-projects img {
-  margin-left: 40px;
+  margin-left: 20px;
+  width: 120px;
 }
 
-@media screen and (max-width: 800px ) {
+.modal-project {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-project {
+  width: 900px;
+  background-color: rgba(3, 60, 81, 0.5);
+  backdrop-filter: blur(4px);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 40px;
+}
+
+.title-project {
+  font-size: 30px;
+  font-family: "Roboto Mono", monospace;
+  color: white;
+}
+
+.container-video {
+  width: 50%;
+}
+
+.container-text {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container-text h4 {
+  font-size: 20px;
+  font-family: "Roboto Mono", monospace;
+  color: #282c34;
+  background-color: lightgray;
+  display: inline;
+}
+
+.container-text div:nth-child(2) h4 {
+  font-size: 14px;
+}
+
+.container-text p {
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  line-height: 24px;
+}
+
+.description-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+}
+
+.container-video-text {
+  display: flex;
+  width: 100%;
+  gap: 30px;
+}
+
+.button-link {
+  background-color: #033c51;
+  font-family: "Roboto Mono", monospace;
+  text-decoration: none;
+  padding: 5px 20px;
+  color: white;
+  font-weight: 700;
+  border-radius: 4px;
+  font-size: 20px;
+  transition: 200ms;
+}
+
+.button-link:hover {
+  background-color: #1f2228;
+  transform: scale(1.05);
+}
+
+.button-close {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  cursor: pointer;
+  border-radius: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .projects {
+    gap: 50px;
+  }
+
   .projects h2 {
     font-size: 30px;
+    margin-top: 50px;
   }
 
-  .projects ul {
-    width: 260px;
-    overflow: auto;
-  }
-
-  .projects ul li {
-    box-shadow: none;
+  .list-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
   }
 
   .more-projects {
     font-size: 20px;
+  }
+
+  .name-project {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(2px);
+    color: white;
+    font-family: "Roboto Mono", monospace;
+    font-weight: 800;
+    font-size: 20px;
+  }
+
+  .container-project {
+    width: 90%;
+    height: 700px;
+    gap: 10px;
+  }
+
+  .container-video-text {
     flex-direction: column;
+    align-items: center;
   }
 
-  .more-projects img {
-    margin: 0;
-    margin-top: 30px;
-    width: 150px;
+  .container-video {
+    width: 100%;
   }
 
-  .projects ul li {
-    width: 180px;
-    height: 140px;
+  .container-text {
+    width: 100%;
   }
 
-  .projects ul li h3 {
-    font-size: 15px;
-  }
-
-  .in-progress {
-    font-size: 15px;
-  }
-
-  .projects ul li img {
-    width: 150px;
+  .button-link {
+    align-self: center;
   }
 }
-
-
