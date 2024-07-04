@@ -210,8 +210,8 @@
   }
 
   .projects h2 {
-    font-size: 30px;
-    margin-top: 50px;
+    font-size: 18px;
+    margin-top: 40px;
   }
 
   .list-projects {
@@ -223,7 +223,12 @@
   }
 
   .more-projects {
-    font-size: 20px;
+    font-size: 16px;
+  }
+
+  .more-projects img {
+    margin-left: 10px;
+    width: 90px;
   }
 
   .name-project {
@@ -244,8 +249,9 @@
 
   .container-project {
     width: 90%;
-    height: 700px;
+    height: 95%;
     gap: 10px;
+    justify-content: center;
   }
 
   .container-video-text {
@@ -261,7 +267,19 @@
     width: 100%;
   }
 
+  .container-text h4 {
+    font-size: 16px;
+  }
+
+  .title-project {
+    font-size: 18px;
+  }
+
   .button-link {
     align-self: center;
+  }
+
+  .video {
+    max-height: 200px;
   }
 }
