@@ -58,12 +58,12 @@
   justify-content: center;
   width: 270px;
   text-decoration: none;
-  background-color: #282c34;
-  color: white;
+  background-image: linear-gradient(90deg, #60dbfb, #ffffff);
+  color: #033c51;
   padding: 10px;
   font-size: 25px;
   font-family: "Roboto Mono", monospace;
-  border-radius: 20px;
+  border-radius: 10px;
   transition: 200ms;
 }
 
@@ -78,7 +78,8 @@
 
 .img-perfil {
   border-radius: 100%;
-  border: solid 25px #282c34;
+  padding: 20px;
+  background-image: linear-gradient(90deg, #60dbfb, #ffffff);
 }
 
 .aboutme-mobile {
@@ -112,7 +113,7 @@
   }
 
   .img-perfil {
-    border: solid 10px #282c34;
+    padding: 10px;
   }
 
   .text h2 {

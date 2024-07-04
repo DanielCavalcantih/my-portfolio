@@ -3,7 +3,7 @@
     width: 0;
   }
   to {
-    width: 100%;
+    width: 38%;
   }
 }
 
@@ -12,7 +12,7 @@
     width: 0;
   }
   to {
-    width: 91%;
+    width: 66%;
   }
 }
 
@@ -111,6 +111,8 @@ header {
   height: 90%;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  width: 50%;
   margin-top: 70px;
   padding: 20px;
 }
@@ -118,12 +120,12 @@ header {
 .title {
   border-right: 4px solid rgba(255, 255, 255, 0.753);
   font-family: "Press Start 2P", cursive;
-  font-size: 23px;
+  font-size: 20px;
   padding: 10px 0;
   width: 0;
   white-space: nowrap;
   overflow: hidden;
-  color: rgb(255, 255, 119);
+  color: white;
   text-shadow: 2px 2px 5px black;
 }
 
@@ -136,12 +138,12 @@ header {
 }
 
 .typing-animation {
-  animation: blinkCursor 600ms 6 forwards, typing 2.2s steps(30) 1s forwards;
+  animation: blinkCursor 600ms 6 forwards, typing 1.8s steps(30) 1s forwards;
 }
 
 .subtitle {
   border-right: 4px solid #282c34;
-  font-size: 23px;
+  font-size: 30px;
   overflow: hidden;
   white-space: nowrap;
   width: 0;
@@ -149,8 +151,9 @@ header {
   font-family: "Press Start 2P", cursive;
   margin-top: 20px;
   padding: 10px 0;
-  color: rgb(255, 255, 119);
-  text-shadow: 2px 2px 5px black;
+  background: -webkit-linear-gradient(180deg, #ffffff, #60dbfb);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .subtitle span {
@@ -162,7 +165,7 @@ header {
 }
 
 .blank {
-  animation: typing2 2s steps(40) 4s forwards, blinkCursor2 600ms 4s 5 forwards;
+  animation: typing2 2s steps(30) 4s forwards, blinkCursor2 600ms 4s 5 forwards;
 }
 
 .knowMe {
@@ -266,6 +269,24 @@ header {
 }
 
 @media screen and (max-width: 800px) {
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 46%;
+    }
+  }
+  
+  @keyframes typing2 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 82%;
+    }
+  }
+
   body {
     overflow: auto;
   }
@@ -307,10 +328,6 @@ header {
     justify-content: center;
   }
 
-  .container-title {
-    padding: 0;
-  }
-
   .link-img {
     display: none;
   }
@@ -332,6 +349,8 @@ header {
 
   .container-title {
     margin-top: 50px;
+    width: 100%;
+    padding: 0;
   }
 
   .title {
@@ -339,10 +358,10 @@ header {
   }
 
   .subtitle {
-    font-size: 9px;
+    font-size: 14px;
     margin-top: 0px;
   }
-  
+
   .knowMe h2 {
     font-size: 15px;
     margin-bottom: 85px;

@@ -1,5 +1,5 @@
 .contact-section {
-  background-color: #282c33;
+  background-image: linear-gradient(90deg, #60dbfb, #ffffff);
   display: flex;
   justify-content: center;
   padding: 60px 0;
@@ -11,8 +11,7 @@
   font-size: 38px;
   margin-bottom: 60px;
   font-family: "Roboto Mono", monospace;
-  color: #282c34;
-  background-color: lightgray;
+  color: #033c51;
   display: inline;
 }
 
@@ -37,7 +36,7 @@
 }
 
 .contact:hover {
-  background-color: #1f2228;
+  background-color: white;
   transform: scale(1.05);
 }
 
@@ -45,10 +44,11 @@
   color: white;
   font-size: 20px;
   font-weight: 700;
+  color: #033c51;
 }
 
 .contact span {
-  color: white;
+  color: #033c51;
 }
 
 @media screen and (max-width: 800px) {

@@ -30,13 +30,13 @@
 
 .list-projects button {
   height: 200px;
-  width: 300px;
+  width: 298px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border: none;
-  background: #282c33;
+  background-image: linear-gradient(90deg, #60dbfb, #ffffff);
   transition: 200ms;
   border-radius: 10px;
   overflow: hidden;
@@ -178,11 +178,11 @@
 }
 
 .button-link {
-  background-color: #033c51;
+  background-image: linear-gradient(90deg, #60dbfb, #ffffff);
   font-family: "Roboto Mono", monospace;
   text-decoration: none;
-  padding: 5px 20px;
-  color: white;
+  padding: 10px 20px;
+  color: #033c51;
   font-weight: 700;
   border-radius: 4px;
   font-size: 20px;
