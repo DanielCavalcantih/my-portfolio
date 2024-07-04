@@ -17,7 +17,7 @@
 }
 
 .how-arrive h2 {
-  font-size: 45px;
+  font-size: 38px;
   font-family: 'Roboto Mono', monospace;
   color: #282C34;
   margin-bottom: 35px;
@@ -25,7 +25,8 @@
 }
 
 .how-arrive p {
-  font-size: 25px;
+  font-size: 22px;
+  line-height: 36px;
   font-family: 'Roboto Mono', monospace;
   color: white;
 }
@@ -54,6 +55,7 @@
 
   .how-arrive p {
     width: 90%;
+    line-height: 28px;
     font-size: 15px;
   }
 }

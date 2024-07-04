@@ -16,12 +16,7 @@ function AboutMe() {
             data-aos-duration="800"
             className="text"
           >
-            <h2>{"<About me/>"}</h2>
-            <p>
-              My name is Daniel, I'm from Recife-PE. I really like going out with
-              friends and going out with my family, I really value those who are
-              always by my side at different times in my life.
-            </p>
+            <p>Hello, welcome to my portfolio, let's know me!</p>
             <div className="linkedin-cv">
               <a
                 href="https://www.linkedin.com/in/daniel-cavalcanti1/"
@@ -61,32 +56,8 @@ function AboutMe() {
             data-aos-duration="800"
             className="text"
           >
-            <h2>{"<About me/>"}</h2>
-            <p>
-              My name is Daniel, I'm from Recife-PE. I really like going out with
-              friends and going out with my family, I really value those who are
-              always by my side at different times in my life.
-            </p>
+            <p>Hello, welcome to my portfolio, let's know me!</p>
             <div className="img-links-mobile">
-              <div className="linkedin-cv">
-                <a
-                  href="https://www.linkedin.com/in/daniel-cavalcanti1/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img width="60" src={linkedin} alt="" />
-                </a>
-                <a
-                  href="https://github.com/DanielCavalcantih"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img width="60" src={github} alt="" />
-                </a>
-                <a className="cv" href={pdf} download="daniel-cavalcanti-cv">
-                  <img width="40" src={downloadCv} alt="" />
-                </a>
-              </div>
               <div
                 data-aos="fade-left"
                 ata-aos-delay="300"
@@ -94,6 +65,25 @@ function AboutMe() {
                 className="img-city-container"
               >
                 <img className="img-perfil" width="350" src={perfil} alt="" />
+              </div>
+              <div className="linkedin-cv">
+                <a
+                  href="https://www.linkedin.com/in/daniel-cavalcanti1/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img width="40" src={linkedin} alt="" />
+                </a>
+                <a
+                  href="https://github.com/DanielCavalcantih"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img width="40" src={github} alt="" />
+                </a>
+                <a className="cv" href={pdf} download="daniel-cavalcanti-cv">
+                  <img width="30" src={downloadCv} alt="" />
+                </a>
               </div>
             </div>
           </div>

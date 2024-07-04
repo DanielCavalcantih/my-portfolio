@@ -30,7 +30,7 @@
     border-right-color: rgba(255, 255, 255, 0.753);
   }
   to {
-    border-right-color: #282C34;
+    border-right-color: #282c34;
   }
 }
 
@@ -39,20 +39,20 @@
     border-right-color: rgba(255, 255, 255, 0.753);
   }
   to {
-    border-right-color: #282C34;
+    border-right-color: #282c34;
   }
 }
 
 @keyframes blinkCursor3 {
   from {
-    border-right-color: #282C34;
+    border-right-color: #282c34;
   }
   to {
     border-right-color: rgba(255, 255, 255, 0.753);
   }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
 * {
   margin: 0;
@@ -64,8 +64,8 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
-  background-color: #282C34;
+  height: 20vh;
+  background-color: #282c34;
   background-size: cover;
 }
 
@@ -73,13 +73,17 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 50px;
+  height: 45px;
   width: 100vw;
   position: fixed;
+  z-index: 1000;
   background-color: rgba(40, 44, 52, 0.8);
 }
 
 .link-nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
   padding: 5px 20px;
   color: rgba(255, 255, 255, 0.6);
   font-size: 18px;
@@ -87,7 +91,7 @@ header {
   border-width: 0 1px 0 1px;
   transition: 300ms;
   text-decoration: none;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   text-shadow: 2px 2px 5px black;
 }
 
@@ -107,13 +111,13 @@ header {
   height: 90%;
   display: flex;
   flex-direction: column;
-  margin-top: 200px;
+  margin-top: 70px;
   padding: 20px;
 }
 
 .title {
   border-right: 4px solid rgba(255, 255, 255, 0.753);
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 23px;
   padding: 10px 0;
   width: 0;
@@ -124,7 +128,7 @@ header {
 }
 
 .title span {
-  color: #1E318F;
+  color: #1e318f;
 }
 
 .title span:nth-child(2) {
@@ -136,13 +140,13 @@ header {
 }
 
 .subtitle {
-  border-right: 4px solid #282C34;
+  border-right: 4px solid #282c34;
   font-size: 23px;
   overflow: hidden;
   white-space: nowrap;
   width: 0;
   font-weight: bold;
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   margin-top: 20px;
   padding: 10px 0;
   color: rgb(255, 255, 119);
@@ -150,7 +154,7 @@ header {
 }
 
 .subtitle span {
-  color: #1E318F;
+  color: #1e318f;
 }
 
 .subtitle span:nth-child(2) {
@@ -169,8 +173,8 @@ header {
 }
 
 .knowMe h2 {
-  border-right: 4px solid #282C34;
-  font-family: 'Press Start 2P', cursive;
+  border-right: 4px solid #282c34;
+  font-family: "Press Start 2P", cursive;
   margin-bottom: 50px;
   font-size: 20px;
   overflow: hidden;
@@ -193,17 +197,19 @@ header {
 }
 
 .blank2 {
-  animation: typing3 1.2s steps(20) 6s forwards, blinkCursor3 600ms 6s infinite forwards;
+  animation: typing3 1.2s steps(20) 6s forwards,
+    blinkCursor3 600ms 6s infinite forwards;
 }
 
 .button-contact {
   position: fixed;
   right: 0;
+  height: 45px;
   background: none;
   border: none;
   font-size: 18px;
   color: rgba(255, 255, 255, 0.6);
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   text-shadow: 2px 2px 5px black;
   display: flex;
   gap: 8px;
@@ -213,22 +219,9 @@ header {
   padding: 5px 20px;
 }
 
-.contact {
-  position: fixed;
-  right: 0;
-  top: 50px;
-  background-color: rgba(40, 44, 52, 0.8);
-  border-radius: 0 0 0 10px;
-  padding: 20px 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-  gap: 12px;
-}
-
 .number {
   color: rgba(255, 255, 255, 0.6);
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   text-shadow: 2px 2px 5px black;
   display: flex;
   align-items: center;
@@ -238,7 +231,7 @@ header {
 .email {
   font-size: 16px;
   color: rgba(255, 255, 255, 0.6);
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   text-shadow: 2px 2px 5px black;
   display: flex;
   align-items: center;
@@ -264,7 +257,7 @@ header {
 .insta {
   font-size: 16px;
   color: rgba(255, 255, 255, 0.6);
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   text-shadow: 2px 2px 5px black;
 }
 
@@ -272,7 +265,7 @@ header {
   display: none;
 }
 
-@media screen and (max-width: 800px ) {
+@media screen and (max-width: 800px) {
   body {
     overflow: auto;
   }
@@ -289,6 +282,7 @@ header {
     width: 100vw;
     position: fixed;
     background-color: rgba(40, 44, 52, 0.8);
+    z-index: 1000;
   }
 
   .menu-items {
@@ -337,7 +331,7 @@ header {
   }
 
   .container-title {
-    margin-top: 250px;
+    margin-top: 50px;
   }
 
   .title {
@@ -346,11 +340,11 @@ header {
 
   .subtitle {
     font-size: 9px;
+    margin-top: 0px;
   }
-
+  
   .knowMe h2 {
     font-size: 15px;
     margin-bottom: 85px;
   }
 }
-

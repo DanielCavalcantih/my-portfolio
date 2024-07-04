@@ -1,0 +1,80 @@
+.contact-section {
+  background-color: #282c33;
+  display: flex;
+  justify-content: center;
+  padding: 60px 0;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-section h2 {
+  font-size: 38px;
+  margin-bottom: 60px;
+  font-family: "Roboto Mono", monospace;
+  color: #282c34;
+  background-color: lightgray;
+  display: inline;
+}
+
+.container-contacts {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.contact {
+  border-radius: 0 0 0 10px;
+  font-family: "Roboto Mono", monospace;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  transition: 200ms;
+  border-radius: 20px;
+  width: 340px;
+}
+
+.contact:hover {
+  background-color: #1f2228;
+  transform: scale(1.05);
+}
+
+.contact h3 {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.contact span {
+  color: white;
+}
+
+@media screen and (max-width: 800px) {
+  .contact-section h2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+
+  .container-contacts {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contact {
+    width: auto;
+  }
+
+  .contact img {
+    width: 60px;
+  }
+
+  .contact h3 {
+    font-size: 16px;
+  }
+
+  .contact span {
+    font-size: 12px;
+  }
+}

@@ -1,6 +1,7 @@
-.aboutme{
-  background-color: #033C51;
+.aboutme {
+  background-image: url("../images/480527.png");
   display: flex;
+  height: 80vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -10,30 +11,31 @@
 .container-text-img {
   display: flex;
   justify-content: center;
-  gap: 200px;
+  gap: 120px;
   align-items: center;
 }
 
-.text{
+.text {
   display: flex;
   flex-direction: column;
   align-items: start;
   color: white;
-  width: 30%;
+  width: 40%;
   font-weight: bold;
 }
 
-.text h2{
+.text h2 {
   font-size: 55px;
-  color: #282C34;
+  color: #282c34;
   margin-bottom: 35px;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   background-color: lightgray;
 }
 
 .text p {
-  font-size: 30px;
-  font-family: 'Roboto Mono', monospace;
+  font-size: 40px;
+  line-height: 55px;
+  font-family: "Roboto Mono", monospace;
 }
 
 .linkedin-cv {
@@ -42,23 +44,32 @@
   gap: 24px;
 }
 
+.linkedin-cv a {
+  transition: 200ms;
+}
+
+.linkedin-cv a:hover {
+  transform: scale(1.05);
+}
+
 .cv {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 270px;
   text-decoration: none;
-  background-color: #023041;
+  background-color: #282c34;
   color: white;
   padding: 10px;
   font-size: 25px;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   border-radius: 20px;
   transition: 200ms;
 }
 
 .cv:hover {
-  background-color: #023041;
+  background-color: #1f2228;
+  transform: scale(1.05);
 }
 
 .cv img {
@@ -66,25 +77,27 @@
 }
 
 .img-perfil {
-  border-radius: 20px;
+  border-radius: 100%;
+  border: solid 25px #282c34;
 }
 
 .aboutme-mobile {
   display: none;
 }
 
-@media screen and (max-width: 800px ) {
+@media screen and (max-width: 800px) {
   .aboutme {
     display: none;
   }
 
   .aboutme-mobile {
-    padding: 50px 0;
-    background-color: #033C51;
+    padding: 20px 0;
+    background-color: #033c51;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 80vh;
   }
 
   .container-text-img {
@@ -98,6 +111,10 @@
     align-items: center;
   }
 
+  .img-perfil {
+    border: solid 10px #282c34;
+  }
+
   .text h2 {
     font-size: 18px;
     margin-bottom: 30px;
@@ -105,6 +122,7 @@
 
   .text p {
     font-size: 15px;
+    line-height: 26px;
     width: 90%;
   }
 
@@ -117,18 +135,17 @@
 
   .linkedin-cv {
     margin: 0;
-    flex-direction: column;
-    align-items: center;
+    align-items: start;
   }
 
   .cv {
-    width: 100%;
+    width: 40px;
+    height: 40px;
     font-size: 20px;
     border-radius: 10px;
   }
 
   .cv img {
-    width: 40px;
     margin: 0;
   }
 
@@ -139,9 +156,10 @@
   .img-links-mobile {
     display: flex;
     width: 100%;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    gap: 50px;
+    gap: 20px;
   }
 }
