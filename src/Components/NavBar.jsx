@@ -19,7 +19,9 @@ export default function NavBar() {
         <a className="link-nav" href="#hard-skills">
           Hard Skills
         </a>
-        {/* <a className="link-nav" href="#projects">Projects</a> */}
+        <a className="link-nav" href="#projects">
+          Projects
+        </a>
         <a className="link-nav" href="#soft-skills">
           Soft Skills
         </a>
@@ -56,7 +58,13 @@ export default function NavBar() {
             >
               Hard Skills
             </a>
-            {/* <a className="link-nav" href="#projects">Projects</a> */}
+            <a
+              className="link-nav"
+              href="#projects"
+              onClick={() => setMenuOn(false)}
+            >
+              Projects
+            </a>
             <a
               className="link-nav"
               href="#soft-skills"
