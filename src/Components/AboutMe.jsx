@@ -1,4 +1,5 @@
 import "../styles/aboutme.css";
+import "../styles/header.css";
 import perfil from "../images/Perfil.jpeg";
 import linkedin from "../images/logo-link.png";
 import github from "../images/github.png";
@@ -16,7 +17,16 @@ function AboutMe() {
             data-aos-duration="800"
             className="text"
           >
-            <p>Hello, welcome to my portfolio, let's know me!</p>
+            <div className="container-title">
+              <h1 className="title-header typing-animation">
+                Daniel Cavalcanti
+              </h1>
+              <p className="subtitle-header blank">Full-Stack Developer</p>
+            </div>
+            <p className="hello">
+              Hello, welcome to my portfolio,
+              <br /> let's know me!
+            </p>
             <div className="linkedin-cv">
               <a
                 href="https://www.linkedin.com/in/daniel-cavalcanti1/"
@@ -56,7 +66,16 @@ function AboutMe() {
             data-aos-duration="800"
             className="text"
           >
-            <p>Hello, welcome to my portfolio, let's know me!</p>
+            <div className="container-title">
+              <h1 className="title-header typing-animation">
+                Daniel Cavalcanti
+              </h1>
+              <p className="subtitle-header blank">Full-Stack Developer</p>
+            </div>
+            <p className="hello">
+              Hello, welcome to my portfolio,
+              <br /> let's know me!
+            </p>
             <div className="img-links-mobile">
               <div
                 data-aos="fade-left"

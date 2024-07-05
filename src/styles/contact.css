@@ -51,6 +51,21 @@
   color: #033c51;
 }
 
+@media screen and (max-width: 1060px) {
+  .container-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+@media screen and (max-width: 1240px) {
+  .container-contacts {
+    gap: 20px;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .contact-section h2 {
     font-size: 18px;

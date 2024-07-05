@@ -1,4 +1,3 @@
-import Header from './Components/Header';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import AboutMe from './Components/AboutMe';
@@ -15,7 +14,6 @@ function App() {
   return (
     <>
       <NavBar />
-      <Header />
       <AboutMe />
       <AboutDev />
       <HardSkills />

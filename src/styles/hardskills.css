@@ -7,7 +7,7 @@
   background-color: #033C51;
 }
 .container-h2-list {
-  width: 60%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -50,6 +50,32 @@
   font-size: 30px;
   font-weight: 700;
 }
+
+
+@media screen and (max-width: 1550px ) {
+  .hard-list {
+    display: grid;
+    grid-template-areas: 
+      'li li li'
+      'li li li'
+    ;
+    grid-column-gap: 60px;
+    grid-row-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1200px ) {
+  .hard-list {
+    display: grid;
+    grid-template-areas: 
+      'li li'
+      'li li'
+    ;
+    grid-column-gap: 60px;
+    grid-row-gap: 20px;
+  }
+}
+
 
 @media screen and (max-width: 800px ) {
   .hard-skills {

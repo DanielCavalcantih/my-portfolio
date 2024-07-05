@@ -3,7 +3,7 @@
     width: 0;
   }
   to {
-    width: 38%;
+    width: 100%;
   }
 }
 
@@ -12,7 +12,7 @@
     width: 0;
   }
   to {
-    width: 66%;
+    width: 100%;
   }
 }
 
@@ -30,7 +30,7 @@
     border-right-color: rgba(255, 255, 255, 0.753);
   }
   to {
-    border-right-color: #282c34;
+    border-right-color: transparent;
   }
 }
 
@@ -39,13 +39,13 @@
     border-right-color: rgba(255, 255, 255, 0.753);
   }
   to {
-    border-right-color: #282c34;
+    border-right-color: transparent;
   }
 }
 
 @keyframes blinkCursor3 {
   from {
-    border-right-color: #282c34;
+    border-right-color: transparent;
   }
   to {
     border-right-color: rgba(255, 255, 255, 0.753);
@@ -111,13 +111,9 @@ header {
   height: 90%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  width: 50%;
-  margin-top: 70px;
-  padding: 20px;
 }
 
-.title {
+.title-header {
   border-right: 4px solid rgba(255, 255, 255, 0.753);
   font-family: "Press Start 2P", cursive;
   font-size: 20px;
@@ -141,15 +137,15 @@ header {
   animation: blinkCursor 600ms 6 forwards, typing 1.8s steps(30) 1s forwards;
 }
 
-.subtitle {
+.subtitle-header {
   border-right: 4px solid #282c34;
-  font-size: 30px;
+  font-size: 34px;
   overflow: hidden;
   white-space: nowrap;
   width: 0;
   font-weight: bold;
   font-family: "Press Start 2P", cursive;
-  margin-top: 20px;
+  margin-top: 10px;
   padding: 10px 0;
   background: -webkit-linear-gradient(180deg, #ffffff, #60dbfb);
   background-clip: text;
@@ -268,13 +264,19 @@ header {
   display: none;
 }
 
+@media screen and (max-width: 1200px) {
+  .subtitle-header {
+    font-size: 30px;
+  }
+}
+
 @media screen and (max-width: 800px) {
   @keyframes typing {
     from {
       width: 0;
     }
     to {
-      width: 46%;
+      width: 100%;
     }
   }
   
@@ -283,7 +285,7 @@ header {
       width: 0;
     }
     to {
-      width: 82%;
+      width: 100%;
     }
   }
 
@@ -348,17 +350,16 @@ header {
   }
 
   .container-title {
-    margin-top: 50px;
     width: 100%;
     padding: 0;
   }
 
-  .title {
-    font-size: 9px;
+  .title-header {
+    font-size: 8px;
   }
 
-  .subtitle {
-    font-size: 14px;
+  .subtitle-header {
+    font-size: 16px;
     margin-top: 0px;
   }
 
