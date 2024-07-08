@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.a18afbf0.css",
+    "main.css": "/my-portfolio/static/css/main.220f6a9d.css",
     "main.js": "/my-portfolio/static/js/main.fcaa4bf8.js",
     "reactPlayerYouTube.js": "/my-portfolio/static/js/reactPlayerYouTube.85a1435a.chunk.js",
     "reactPlayerSoundCloud.js": "/my-portfolio/static/js/reactPlayerSoundCloud.6949af14.chunk.js",
@@ -23,11 +23,11 @@
     "static/media/nlwexpert.mp4": "/my-portfolio/static/media/nlwexpert.3ab346f95aaed91a52a1.mp4",
     "static/media/dotbank.mp4": "/my-portfolio/static/media/dotbank.6f07250b4fc75ae1bc8c.mp4",
     "static/media/popups.mp4": "/my-portfolio/static/media/popups.183cf3526c979407032e.mp4",
-    "static/media/480527.png": "/my-portfolio/static/media/480527.9e2f3afe680835f0294a.png",
     "static/media/ff-img.png": "/my-portfolio/static/media/ff-img.e7c4876b49db7c9bbc29.png",
     "static/media/netcars.png": "/my-portfolio/static/media/netcars.32a18aa722681dba3618.png",
     "static/media/popups.png": "/my-portfolio/static/media/popups.65a949a81d704bdb99e5.png",
     "static/media/expert-img.jpg": "/my-portfolio/static/media/expert-img.2260efb7137e7bba8a9b.jpg",
+    "static/media/city.jpeg": "/my-portfolio/static/media/city.cf75141ad36302681354.jpeg",
     "static/media/Perfil.jpeg": "/my-portfolio/static/media/Perfil.e55460f20099fdb3d252.jpeg",
     "static/media/react.png": "/my-portfolio/static/media/react.24e524486269968bd880.png",
     "static/media/doting.png": "/my-portfolio/static/media/doting.714832c1a0db5a9c3240.png",
@@ -50,7 +50,7 @@
     "static/media/firebase.png": "/my-portfolio/static/media/firebase.65c4fe9f7eb228db7a4c.png",
     "static/media/ts.webp": "/my-portfolio/static/media/ts.9f3e507ce3f4259817c6.webp",
     "index.html": "/my-portfolio/index.html",
-    "main.a18afbf0.css.map": "/my-portfolio/static/css/main.a18afbf0.css.map",
+    "main.220f6a9d.css.map": "/my-portfolio/static/css/main.220f6a9d.css.map",
     "main.fcaa4bf8.js.map": "/my-portfolio/static/js/main.fcaa4bf8.js.map",
     "reactPlayerYouTube.85a1435a.chunk.js.map": "/my-portfolio/static/js/reactPlayerYouTube.85a1435a.chunk.js.map",
     "reactPlayerSoundCloud.6949af14.chunk.js.map": "/my-portfolio/static/js/reactPlayerSoundCloud.6949af14.chunk.js.map",
@@ -69,7 +69,7 @@
     "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a18afbf0.css",
+    "static/css/main.220f6a9d.css",
     "static/js/main.fcaa4bf8.js"
   ]
 }
