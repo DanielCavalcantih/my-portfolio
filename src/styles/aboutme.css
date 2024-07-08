@@ -1,5 +1,5 @@
 .aboutme {
-  background-image: url("../images/480527.png");
+  background-image: url("../images/city.jpeg");
   display: flex;
   height: 100vh;
   flex-direction: column;
@@ -101,7 +101,7 @@
 
   .aboutme-mobile {
     padding: 20px 0;
-    background-image: url("../images/480527.png");
+    background-image: url("../images/city.jpeg");
     display: flex;
     flex-direction: column;
     justify-content: center;
