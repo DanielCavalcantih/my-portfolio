@@ -18,6 +18,10 @@ import reactN from "../images/react-n.png";
 import dotbank from "../images/doting.png";
 import dotvideo from "../videos/dotbank.mp4";
 import firebase from "../images/firebase.png";
+import planner from "../images/plannerimg.jpg";
+import plannermp4 from "../videos/planner.mp4";
+import ts from "../images/ts.webp";
+import tail from "../images/tail.png";
 
 const projects = [
   {
@@ -68,7 +72,7 @@ const projects = [
     description:
       "Nlw Expert consists of a snack bar delivery application. Projeto feito para NLW (Next Level Week da RocketSeat)",
     project_video: nlwVideo,
-    tools: [reactN, js, css],
+    tools: [reactN, js, tail],
   },
   {
     id: 6,
@@ -79,6 +83,16 @@ const projects = [
       "Dotbank consists of an application developed to simulate a digital bank application, making transfers, viewing statements, etc.",
     project_video: dotvideo,
     tools: [reactN, js, css, firebase],
+  },
+  {
+    id: 6,
+    link: "https://github.com/DanielCavalcantih/planner",
+    project_name: "Planner",
+    project_img: planner,
+    description:
+      "Planner is an application for organizing trips with family or friends.",
+    project_video: plannermp4,
+    tools: [reactN, ts, tail, node, mysql],
   },
 ];
 

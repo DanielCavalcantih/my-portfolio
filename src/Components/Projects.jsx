@@ -99,7 +99,12 @@ function Projects() {
                     ))}
                   </div>
                 </div>
-                <a className="button-link" href={selectedProject.link}>
+                <a
+                  className="button-link"
+                  href={selectedProject.link}
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Go to project
                 </a>
               </div>
