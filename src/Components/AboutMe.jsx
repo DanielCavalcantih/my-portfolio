@@ -1,6 +1,6 @@
 import "../styles/aboutme.css";
 import "../styles/header.css";
-import perfil from "../images/Perfil.jpeg";
+import perfil from "../images/Perfil.png";
 import linkedin from "../images/logo-link.png";
 import github from "../images/github.png";
 import downloadCv from "../images/resume-cv.webp";
