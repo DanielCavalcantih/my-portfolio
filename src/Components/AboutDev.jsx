@@ -13,15 +13,24 @@ function AboutDev() {
           videos on the internet, I saw that it was what I wanted for my life. I
           started taking some free courses, until I discovered Trybe, where I
           became a professional and acquired knowledge to finally have my first
-          job opportunity. I currently work at{" "}
+          job opportunity at{" "}
           <a
             target="_blank"
             rel="noreferrer"
             href="https://datasysconsultoria.com.br/"
           >
-            Datasys Consultoria
+            DataSys Consultoria
           </a>
-          , leading the Front-End development team.
+          , where I spent 1 year and 7 months
+          leading the front-end development team. I currently work at{" "}
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.amigotech.com.br/"
+          >
+            Amigo Tech
+          </a>
+          , as a full-stack mobile developer.
         </p>
       </div>
     </section>
